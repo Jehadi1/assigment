@@ -1,0 +1,83 @@
+/* ========== resposniove css =========== */
+@media screen and (max-width: 576px) {
+  .nav-bar .menu {
+    display: none;
+  }
+
+  .nav-bar .material-symbols-outlined {
+    display: block;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+  }
+
+  .hero-wrapper .col h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .hero-wrapper .col h1 span {
+    font-size: 53px;
+  }
+
+  .hero-wrapper .col button:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  .hero-wrapper .col .image-card {
+    top: 75px;
+    right: -35px;
+    width: 174px;
+    height: 84px;
+  }
+
+  .hero-wrapper .col .image-card2 {
+    width: 174px;
+    height: 84px;
+    bottom: 231px;
+    left: 10px;
+  }
+  .hero-wrapper .col .image-card2 span {
+    margin-top: 8px;
+  }
+
+  .hero-wrapper .col .image-card2 .image-card2-content {
+    margin-top: -6px;
+  }
+
+  #extra-mile .extra-mile-wrapper {
+    flex-direction: column;
+  }
+
+  .extra-mile-wrapper .col button {
+    width: 100%;
+  }
+
+  .extra-mile-wrapper .col img {
+    width: 287px;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: -85px;
+  }
+
+  .bmi-wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer-box:nth-last-child(2) {
+    margin-left: -70%;
+  }
+  .footer-box:last-child {
+    margin-left: -70%;
+  }
+
+  footer p {
+    text-align: left;
+  }
+}
